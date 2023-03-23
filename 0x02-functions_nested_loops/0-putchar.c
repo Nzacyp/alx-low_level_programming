@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- *  main - print _putchar
- * is written by mbah
- * return: 0
+ * main - main function
+ * _putchar - print the alphabets putchar
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,7 +12,7 @@ _putchar('u');
 _putchar('t');
 _putchar('c');
 _putchar('h');
-_putchat('a');
+_putchar('a');
 _putchar('r');
 _putchar('\n');
 return (0);
