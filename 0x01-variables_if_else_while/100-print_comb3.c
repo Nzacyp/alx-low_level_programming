@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
 * main - program compilation begins from main
-* Return: 0 always(Success)
+* Return: 0 means success
 */
 int main(void)
 {
