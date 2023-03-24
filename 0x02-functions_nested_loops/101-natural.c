@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include "holberton.h"
 /**
  * main - Entry point
  *
@@ -7,16 +8,6 @@
  */
 int main(void)
 {
-int i;
-int b;
-b = 0;
-for (i = 0 ; i < 10 ; i++)
-{
-if ((i % 3 == 0) || (i % 5 == 0))
-{
-b = b + i;
-}
-}
-printf("%d\n", b);
-return (0);
+
+	return (0);
 }
