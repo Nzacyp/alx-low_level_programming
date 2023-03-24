@@ -12,22 +12,25 @@ int main(void)
 int c = 3;
 long int a  = 1, b = 2;
 long int n = a + b;
-printf("%lu, ", a);
-rintf("%lu, ", b);
+
+
 while (c <= 50)
 {
+printf("%d, ", a);
+printf("%d, ", b);
+}
 if (c == 50)
 {
-printf("%lu \n", n);
+printf("%d \n", n);
 }
 else
 {
-printf("%lu, ", n);
+printf("%d, ", n);
 }
 a = b;
 b = n;
 n = a + b;
 c++;
-}
+
 return (0);
 }
