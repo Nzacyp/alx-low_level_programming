@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * positive_or_negative - checks for positive or negative numbers
- * @i: the number to b checked
+ * @i: the number to be checked
  * retun: Always 0
  */
 
